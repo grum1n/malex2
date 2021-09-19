@@ -257,6 +257,11 @@ footer i {
     .sidenav div{display: flex;flex-wrap: wrap-reverse;}
     .sidenav div > span{margin-bottom: 20px;} 
 }
+@media screen and (max-width: 880px){
+    /*Footer*/
+    footer .container{flex-direction: column;}
+    footer p{padding: 20px;}
+}
 @media screen and (max-width: 450px) {
     .hero h1{font-size: 3.4rem;}
     .hero-bottom li:nth-child(2){margin: 0;}
