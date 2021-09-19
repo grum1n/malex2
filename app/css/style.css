@@ -54,7 +54,7 @@ a {text-decoration: none;}
 .flex-container {display: flex;}
 .flex-between {display: flex; justify-content: space-between;align-items: center;}
 
-.site-header {
+header {
   position: fixed;
   display: block;
   width: 100%;
@@ -73,3 +73,163 @@ section {
   margin: 0 auto; 
   padding:0 20px;
 }
+
+/*HEADER*/
+header {
+    position: fixed;
+    padding: 59px 0 66px;
+    display: block;
+    width: 100%;
+    z-index:100;
+    background-color: var(--gray-rgba-0);
+    color: var(--white);
+}
+header a ,a:visited {
+    color: var(--white);
+    font-size: 1.0625rem;
+    line-height: 25px;
+    text-transform: uppercase;
+    cursor: pointer;  
+    display: block;
+}
+header a:hover ,a:active {color: var(--black);}
+nav {align-items: center;}
+nav > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav > ul > li{padding: 0 13px 0 12px;}
+nav > div.search-box {
+    margin-left: 12px;
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav > div > a > i {font-size: 1.5rem;}
+/*menu button*/
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 110; 
+    top: 0; 
+    right: 0;
+    background-color: var(--black);
+    overflow-x: hidden; 
+    transition: 0.5s; 
+}
+.sidenav ul.mobile-nav {
+    margin:0;
+    padding: 20px 0;
+    list-style-type: none;
+}
+.mobile-nav li:last-child a{
+    margin-right: 20px;
+    padding: 20px 0;
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+}
+.mobile-nav li:last-child a:hover{
+    background-color: var(--gray-d8);
+    color: var(--black);
+}
+.mobile-nav li:last-child a:last-child{
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 2rem;
+}
+.mobile-nav li:last-child a:last-child:hover{
+    background-color: var(--gray-d8);
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-family: var(--roboto);
+    font-size: 1.5625rem;
+    color: var(--white);
+    display: block;
+    transition: 0.3s;
+    position: relative;
+    line-height: 27px;
+}
+.sidenav a:hover {color: var(--dark);}
+.sidenav ol {
+    margin:0;
+    padding:30px 15px;
+    list-style-type: none;
+}
+.sidenav ol li:first-child{text-align: left;}
+.sidenav ol p{
+    margin:0;
+    padding: 0;
+    font-size: 1.1875rem;
+    line-height: 34px;
+}
+.sidenav ol p:nth-child(4){padding-top: 30px;}
+.sidenav ol li:last-child{text-align: right;}
+.sidenav ol li:last-child a{
+   font-size: 2.0625rem;
+   line-height: 49px;
+   color: var(--white);
+   cursor: pointer;
+}
+.sidenav ol li:last-child a:hover, .sidenav ol li:last-child a:active{
+    color: var(--gray-d8);
+ }
+.sidenav div{
+    padding: 15px;
+    color: var(--white);
+    font-size: 1.0625rem;
+    line-height: 25px;
+}
+.sidenav span a{
+    padding: 0 15px;
+    color: var(--white);
+}
+.sidenav span a:hover ,.sidenav span a:active{
+    color: var(--gray-d8);
+}
+.menu-button {
+    margin-left: 12px;
+    padding: 0 0 0 8px;
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-button a{
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-right: 10px; 
+}
+.menu-button a:hover{color:var(--black);font-size: 1.5rem;}
+
+/*MEDIA MEDIA MEDIA*/
+@media screen and (min-width: 1000px){
+    .sidenav, .menu-button{display: none;}
+}
+@media screen and (max-width: 1000px){
+    /*header*/
+    header {padding: 20px 0;}
+    nav > ul > li{display: none;}
+    .sidenav ol {display: flex;flex-wrap: wrap-reverse;}
+    .sidenav ol li:last-child{margin-bottom: 50px;} 
+    .sidenav div{display: flex;flex-wrap: wrap-reverse;}
+    .sidenav div > span{margin-bottom: 20px;} 
+}
+@media screen and (max-width: 450px) {
+    .hero h1{font-size: 3.4rem;}
+    .hero-bottom li:nth-child(2){margin: 0;}
+} 
