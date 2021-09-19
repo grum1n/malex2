@@ -216,6 +216,34 @@ nav > div > a > i {font-size: 1.5rem;}
 }
 .menu-button a:hover{color:var(--black);font-size: 1.5rem;}
 
+
+
+/*FOOTER*/
+footer {
+    color: var(--white);
+    padding-top: 59px;
+    padding-bottom: 59px;
+}
+footer img{
+    display: block;
+    width: 160px;
+}
+footer a{
+    color: var(--white);
+    font-weight: 400;
+    font-size: 1.0625rem;
+    line-height: 25px;
+    cursor: pointer;
+}
+footer a:hover,footer a:active{
+    color: var(--gray-6c);
+}
+footer i {
+    padding: 0 20px;
+    font-size: 2rem;
+}
+
+
 /*MEDIA MEDIA MEDIA*/
 @media screen and (min-width: 1000px){
     .sidenav, .menu-button{display: none;}
