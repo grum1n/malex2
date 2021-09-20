@@ -3,7 +3,7 @@
         <ul>
             <li>
                 <h3 class="section-name">ABOUT</h3>
-                <h2 class="text-black text-poppins-700">Keep Your Business Safe & Ensure High Availability</h2> 
+                <h2 class="section-description">Keep Your Business Safe & Ensure High Availability</h2> 
                 <div class="about-autor flex-container">
                     <img src="app/images/signature.png" alt="Signature">
                     <div>
