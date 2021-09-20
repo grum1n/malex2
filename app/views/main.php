@@ -44,3 +44,6 @@ include('include/about-us.php');
         <img src="app/images/pexels-tiger-lily-7108129.jpg" alt="Pexels image">
     </div>
 </section>
+<?php
+include('include/how-it-works.php');
+?>
