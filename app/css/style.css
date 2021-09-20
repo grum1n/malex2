@@ -493,7 +493,7 @@ nav > div > a > i {font-size: 1.5rem;}
 /*meet our team*/
 .meet-our-team {
     position: relative;
-    padding: 50px 15px;
+    padding: 50px 0;
 }
 .meet-our-team ul{
     margin: 50px 0 0;
@@ -513,7 +513,6 @@ nav > div > a > i {font-size: 1.5rem;}
     margin: 15px;
     box-shadow: 0 0 10px var(--gray-1e);
     text-align: left;
-
 }
 .meet-our-team .portret{
    position: relative;
@@ -527,7 +526,7 @@ nav > div > a > i {font-size: 1.5rem;}
    bottom:20px;
    left: 20px;
    width: 215px;
-   padding: 8px 10px 12px;
+   padding: 8px 5px 12px;
    background-color: var(--blue);
    color:var(--white);
    display: block;
@@ -542,7 +541,7 @@ nav > div > a > i {font-size: 1.5rem;}
 }
 .meet-our-team li p {
     margin: 13px 0 0;
-    padding-left: 20px;
+    padding: 0 20px;
     font-size: 1.1875rem;
     color: var(--gray-6c);
 }
@@ -613,6 +612,11 @@ footer i {padding: 0 20px;font-size: 2rem;}
         "col-1 col-2"
         "col-3 col-4"
     }
+    /*meet our team*/
+    .meet-our-team li:last-child {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 880px){
     /*About section */
@@ -655,4 +659,8 @@ footer i {padding: 0 20px;font-size: 2rem;}
 @media screen and (max-width: 350px) {
     /*HERO*/
     .hero .hero-text{padding-left: 10px;}
+    /*meet-our-team*/
+    .meet-our-team li h2{
+        font-size: 2.1rem;
+    }
 } 
