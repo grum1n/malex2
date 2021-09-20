@@ -15,7 +15,7 @@
 <body>
 <header class="text-poppins-700">
     <div class="container flex-between">
-        <a href="index.html"><img src="app/images/Logo.png" alt="Logo Malex"></a>
+        <a href="index.php"><img src="app/images/Logo.png" alt="Logo Malex"></a>
         <nav class="flex-container">
             <ul class="flex-container">
                 <li><a href="">SERVICES</a></li>
@@ -27,7 +27,7 @@
                 <li><a href="">CONTACTS</a></li>
             </ul>
             <div class="search-box">
-                <a href="search.html"><i class="fas fa-search"></i></a>
+                <a href="search.php"><i class="fas fa-search"></i></a>
             </div>
             <div id="menu" class="sidenav">
                 <ul class="mobile-nav flex-between">
@@ -49,7 +49,7 @@
                     </li>
                     <li class="text-poppins-700">
                         <a href="">Services</a>
-                        <a href="about.html">About Us</a>
+                        <a href="about.php">About Us</a>
                         <a href="">Team</a>
                         <a href="">Pricing</a>
                         <a href="">Testimonials</a>
