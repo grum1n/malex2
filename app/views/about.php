@@ -1,1 +1,3 @@
-test
+<?php
+include('include/about-us.php');
+?>
