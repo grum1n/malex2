@@ -94,7 +94,22 @@ section {
   margin: 0 auto; 
   padding:0 20px;
 }
-
+.container-big-text{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:  0 20px;
+    position: relative;
+}
+.container-big-text span {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: var(--white-f8xx);
+    display: block;
+    font-size: 19vw;
+    font-weight: 700;
+    line-height: 200px;
+}
 /*HEADER*/
 header {
     position: fixed;
@@ -474,6 +489,82 @@ nav > div > a > i {font-size: 1.5rem;}
     font-weight: 400;
     font-size: 1.1875rem;
     line-height: 34px;
+}
+/*meet our team*/
+.meet-our-team {
+    position: relative;
+    padding: 50px 15px;
+}
+.meet-our-team ul{
+    margin: 50px 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+.meet-our-team li h3{
+   padding-top: 20px;
+}
+.meet-our-team li h2{
+    max-width: 623px;
+}
+.meet-our-team li:last-child {
+    margin-top: 20px;
+}
+.meet-our-team li:last-child > div {
+    margin: 15px;
+    box-shadow: 0 0 10px var(--gray-1e);
+    text-align: left;
+
+}
+.meet-our-team .portret{
+   position: relative;
+}
+.meet-our-team .portret img{
+    width: 100%;
+    display: block;
+}
+.meet-our-team .portret span{
+   position: absolute;
+   bottom:20px;
+   left: 20px;
+   width: 215px;
+   padding: 8px 10px 12px;
+   background-color: var(--blue);
+   color:var(--white);
+   display: block;
+   text-align: center;
+}
+.meet-our-team li h4 {
+    margin: 9px 0 0;
+    padding-left: 20px;
+    font-size: 1.6875rem;
+    line-height: 40px;
+    color: var(--black);
+}
+.meet-our-team li p {
+    margin: 13px 0 0;
+    padding-left: 20px;
+    font-size: 1.1875rem;
+    color: var(--gray-6c);
+}
+.meet-our-team div.icon-st{
+    padding: 0 0 20px 32px;
+}
+.meet-our-team .icon-st a{
+    display: block;
+    margin-top: 19px;
+    padding-right: 32px;
+    color: var(--black);
+    font-size: 1.1875rem;
+    line-height: 24px;
+}
+.meet-our-team .icon-st a:first-child{
+    font-size: 1rem;
+}
+.meet-our-team .icon-st a:nth-child(2){
+    color: var(--blue);
+}
+.meet-our-team .icon-st a:hover, .meet-our-team .icon-st a:active{
+    color: var(--gray-6c);
 }
 /*FOOTER*/
 footer {
