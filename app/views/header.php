@@ -4,7 +4,7 @@
         <nav class="flex-container">
             <ul class="flex-container">
                 <li><a href="">SERVICES</a></li>
-                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="about.php">ABOUT US</a></li>
                 <li><a href="">TEAM</a></li>
                 <li><a href="">PRICING</a></li>
                 <li><a href="">TESTIMONIALS</a></li>

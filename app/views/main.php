@@ -34,6 +34,5 @@
             </div>
             <a href=""><img src="app/images/Button.png" alt=""><span>READ MORE</span></a>
         </li>
-    </ul>
-    
+    </ul> 
 </section>
