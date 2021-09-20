@@ -36,3 +36,6 @@
         </li>
     </ul> 
 </section>
+<?php
+include('include/about-us.php');
+?>
