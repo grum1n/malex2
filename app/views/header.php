@@ -3,7 +3,7 @@
         <a href="index.php"><img src="app/images/Logo.png" alt="Logo Malex"></a>
         <nav class="flex-container">
             <ul class="flex-container">
-                <li><a href="">SERVICES</a></li>
+                <li><a href="pages.php?page=service">SERVICES</a></li>
                 <li><a href="pages.php?page=about">ABOUT US</a></li>
                 <li><a href="">TEAM</a></li>
                 <li><a href="">PRICING</a></li>
@@ -33,8 +33,8 @@
                         <p>info@domain.com</p>
                     </li>
                     <li class="text-poppins-700">
-                        <a href="">Services</a>
-                        <a href="about.php">About Us</a>
+                        <a href="pages.php?page=service">Services</a>
+                        <a href="pages.php?page=about">About Us</a>
                         <a href="">Team</a>
                         <a href="">Pricing</a>
                         <a href="">Testimonials</a>
