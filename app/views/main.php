@@ -46,4 +46,5 @@ include('include/about-us.php');
 </section>
 <?php
 include('include/how-it-works.php');
+include('include/meet-our-team.php');
 ?>

@@ -17,7 +17,7 @@
             <div id="menu" class="sidenav">
                 <ul class="mobile-nav flex-between">
                     <li class="">
-                        <a href="index.html"><img src="app/images/Logo.png" alt="Logo Malex"></a>
+                        <a href="index.php"><img src="app/images/Logo.png" alt="Logo Malex"></a>
                     </li>
                     <li class="flex-container">
                         <a href="search.html"><i class="fas fa-search"></i></a>
