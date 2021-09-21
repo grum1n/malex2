@@ -6,5 +6,6 @@
 <?php
 include('include/about-us.php');
 include('include/meet-our-team.php');
+include('include/testimonials.php');
 include('include/partners.php');
 ?>
