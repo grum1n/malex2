@@ -645,6 +645,23 @@ nav > div > a > i {font-size: 1.5rem;}
     background-color: var(--black);
     color: var(--white);
 }
+/*Partners*/
+.partners ul{
+    margin: 0;
+    padding: 100px 0;
+    list-style-type: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.partners li {
+    padding: 5px ;
+}
+.partners img{
+    width: 100%;
+    display: block;
+}
+
 
 /*FOOTER*/
 footer {
