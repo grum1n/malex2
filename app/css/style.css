@@ -868,7 +868,10 @@ footer i {padding: 0 20px;font-size: 2rem;}
     /*New articles*/
     .mobile-new-articles{
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
+    }
+    .new-articles li div{
+        margin: 0 10px 50px;
     }
     /*Footer*/
     footer .container{flex-direction: column;}
