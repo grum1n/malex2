@@ -728,13 +728,8 @@ nav > div > a > i {font-size: 1.5rem;}
     padding: 130px 0;
     list-style-type: none;
 }
-.new-articles li h2{
-    padding-bottom: 44px;
-}
-.new-articles li{
-    overflow: hidden;
-}
-
+.new-articles li h2{padding-bottom: 44px;}
+.new-articles li{overflow: hidden;}
 .new-articles li div{
     margin: 0 20px;
     text-align: left;
@@ -768,19 +763,14 @@ nav > div > a > i {font-size: 1.5rem;}
     font-size: 1rem;
     line-height: 22px;
 }
-.new-articles li div a:hover{
-    color:var(--black);
-}
-
+.new-articles li div a:hover{color:var(--black);}
 .new-articles li div a img{
     margin-right: 25px;
     display: block;
     width: 35px;
     height: 18px;
 }
-.new-articles li:last-child{
-    float: right;
-}
+.new-articles li:last-child{float: right;}
 .new-articles li:last-child a{
     margin-top: 30px;
     display: block;
@@ -800,6 +790,40 @@ nav > div > a > i {font-size: 1.5rem;}
     color:var(--white);
     background-color: var(--black);
 }
+/*Contacts*/
+.contacts{
+    padding: 150px 0;
+}
+.contacts ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.contacts li {
+    margin: 19px 0;
+    text-align: left;
+}
+.contacts .container-big-text span{
+    font-size: 15vw;
+}
+
+.contacts li div {
+    margin: 15px 0;
+    padding: 50px;
+    min-width: 350px;
+    background-color: var(--white);
+    position: relative;
+    box-shadow: 0 0 20px var(--gray-1e);
+}
+.contacts li h4{
+    margin: 19px 0 9px;
+    font-family: var(--poppins-font);
+    font-weight: 700;
+    font-size: 1.6875rem;
+    line-height: 40px;
+}
+
+
 
 /*FOOTER*/
 footer {
