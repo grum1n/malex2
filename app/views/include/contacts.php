@@ -28,5 +28,15 @@
 
             </li>
         </ul> 
+        <div class="flex-container">
+            <form action="">
+                <h3>You Can Write Us</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.When an unknown printer took a galley.</p>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <textarea name="" id="" placeholder="Message"></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
     </div>
 </section>

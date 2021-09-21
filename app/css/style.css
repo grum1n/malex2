@@ -791,9 +791,7 @@ nav > div > a > i {font-size: 1.5rem;}
     background-color: var(--black);
 }
 /*Contacts*/
-.contacts{
-    padding: 150px 0;
-}
+.contacts{padding: 150px 0;}
 .contacts ul {
     margin: 0;
     padding: 0;
@@ -807,10 +805,7 @@ nav > div > a > i {font-size: 1.5rem;}
     padding-top: 20px;
     font-size: 16vw;
 }
-
-.contacts li:last-child{
-    padding-top: 20px;
-}
+.contacts li:last-child{padding-top: 20px;}
 .contacts li div {
     margin: 15px 10px;
     padding: 50px;
@@ -834,8 +829,67 @@ nav > div > a > i {font-size: 1.5rem;}
     line-height: 34px;
     color: var(--gray-6c);
 }
-
-
+.contacts .flex-container{
+    justify-content: center;
+}
+.contacts form {
+    margin-top: 100px;
+    max-width: 757px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contacts form h3{
+    margin: 0;
+    color: var(--black);
+    font-size: 2.0625rem;
+    line-height: 49px;
+    text-align: left;
+}
+.contacts form p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 34px;
+    color: var(--gray-6c);
+    text-align: left;
+}
+.contacts form input[type=text]{
+    margin-top: 30px;
+    padding: 21px 30px 18px;
+    width: 100%;
+    border: none;
+    background-color: var(--white-f8xx);
+    color: var(--gray-1e);
+}
+.contacts form textarea{
+    margin-top: 30px;
+    padding: 21px 30px 18px;
+    height: 200px;
+    width: 100%;
+    border: none;
+    background-color: var(--white-f8xx);
+    color: var(--gray-1e);
+}
+.contacts form input[type=submit]{
+    margin-top: 30px;
+    padding: 21px 40px 18px;
+    border: 1px solid var(--black);
+    color: var(--black);
+    cursor: pointer;
+    max-width: 210px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 22px;
+}
+.contacts form input[type=submit]:hover{
+    margin-top: 30px;
+    padding: 21px 40px 18px;
+    border: 1px solid var(--black);
+    background-color: var(--black);
+    color: var(--white);
+    cursor: pointer;
+}
 
 /*FOOTER*/
 footer {
@@ -952,6 +1006,13 @@ footer i {padding: 0 20px;font-size: 2rem;}
     .hero-bottom li {height: 100%;}
     .hero-bottom a{margin-top: 35px;}
     .hero h1{padding: 0;}
+    /*contacts*/
+    .contacts form {
+        align-items: center;
+    }
+    .contacts form p{
+        text-align: center;
+    }
 }
 @media screen and (max-width: 350px) {
     /*HERO*/
