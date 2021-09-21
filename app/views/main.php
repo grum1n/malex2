@@ -52,4 +52,5 @@ include('include/partners.php');
 include('include/video.php');
 include('include/testimonials.php');
 include('include/new-articles.php');
+include('include/contacts.php');
 ?>
