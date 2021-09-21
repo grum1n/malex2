@@ -673,7 +673,56 @@ nav > div > a > i {font-size: 1.5rem;}
 }
 
 /*Testimonials*/
+.testimonials{
+    padding: 150px 0;
+    background-color: var(--black);
+}
+.testimonials h2{color: var(--white);}
+.testimonials ul , .testimonials ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
+.testimonials ul li:nth-child(2){
+    padding: 20px 0;
+    color: var(--white);
+    font-size: 2.0625rem;
+    line-height: 55px;
+    text-align: left;
+    position: relative;
+}
+.testimonials ul li:nth-child(2) i{
+    color: var(--white-f8xx);
+    font-size: 4.5rem;
+    top: 40px;
+    line-height: 55px;
+    text-align: left;
+    position: absolute;
+}
+.testimonials ul li:nth-child(2) span{
+    padding-left: 50px;
+}
+.testimonials ol li {
+    align-items: center;
+}
+.testimonials ol li i{
+    color: var(--gray-d8);
+    font-size: 3.75rem;
+    padding: 15px 12px;
+}
+.testimonials ol h4{
+    margin: 0;
+    font-size: 1.4375rem;
+    line-height: 30px;
+    color:var(--white);
+}
+.testimonials ol p{
+    margin: 0;
+    font-size: 1rem;
+    line-height: 34px;
+    color: var(--gray-6c);
+}
 
 /*FOOTER*/
 footer {
