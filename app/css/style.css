@@ -665,6 +665,11 @@ footer i {padding: 0 20px;font-size: 2rem;}
 
 /*MEDIA MEDIA MEDIA*/
 @media screen and (max-width: 1200px) {
+    /*Price plans*/
+    .price-plans li:last-child{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 @media screen and (min-width: 1000px){
     .sidenav, .menu-button{display: none;}
