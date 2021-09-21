@@ -815,6 +815,11 @@ footer i {padding: 0 20px;font-size: 2rem;}
     /*Partners*/
     .partners ul{justify-content: center;}
     .partners li{padding-top: 20px;}
+    /*Testimonials*/
+    .testimonials ol{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 } 
 @media screen and (max-width: 400px){
     /*HERO*/
