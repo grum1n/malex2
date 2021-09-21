@@ -49,4 +49,5 @@ include('include/how-it-works.php');
 include('include/meet-our-team.php');
 include('include/price-plans.php');
 include('include/partners.php');
+include('include/video.php');
 ?>
