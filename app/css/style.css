@@ -570,6 +570,7 @@ nav > div > a > i {font-size: 1.5rem;}
 .price-plans {
     position: relative;
     padding: 50px 0;
+    background-color: var(--white-f8xx);
 }
 .price-plans ul{
     margin: 50px 0 0;
