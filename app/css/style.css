@@ -951,15 +951,41 @@ footer i {padding: 0 20px;font-size: 2rem;}
 }
 .all-news-grid > ol > li {
     max-width: 340px;
-    margin: 0 10px;
+    margin: 0 10px 50px;
+    text-align: left;
 }
-.all-news-grid img{
+.all-news-grid > ol > li > img{
     display: block;
     width: 100%;
 }
 .all-news-grid h5 {
     margin: 23px 0 0;
-    
+    font-size: 1.4375rem;
+    line-height: 35px;
+    color: var(--black);
+}
+.all-news-grid p{
+    margin: 23px 0 ;
+    font-size: 1.1875rem;
+    line-height: 34px;
+    color: var(--gray-1e);
+}
+.all-news-grid li a{
+    color:var(--blue); 
+    display: flex;
+    justify-content: flex-start;
+    font-family: var(--poppins-font);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.all-news-grid li a:hover{
+    color:var(--black); 
+}
+.all-news-grid li span {
+    padding-left: 30px;
 }
 /*MEDIA MEDIA MEDIA*/
 @media screen and (max-width: 1200px) {

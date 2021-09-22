@@ -10,26 +10,26 @@
             <li>
                 <img src="app/images/news1-pexels-markus-winkler.jpg" alt="">
                 <h5 class="text-poppins-700">5 Amazing and Easy Tips for Sustainable Business Success</h5>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducims…</p>
-                <a href=""><img src="app/images/Button.png" alt="">READ MORE</a>
-            </li>
-            <li>
-                <img src="app/images/news2-pexels-kaboompics-com-6335.jpg" alt="">
-                <h5  class="text-poppins-700">5 Amazing and Easy Tips for Sustainable Business Success</h5>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducims…</p>
-                <a href=""><img src="app/images/Button.png" alt="">READ MORE</a>
+                <p class="text-poppins-400">At vero eos et accusamus et iusto odio dignissimos ducims…</p>
+                <a href=""><img src="app/images/Button.png" alt=""><span>READ MORE</span></a>
             </li>
             <li>
                 <img src="app/images/news1-pexels-markus-winkler.jpg" alt="">
                 <h5 class="text-poppins-700">5 Amazing and Easy Tips for Sustainable Business Success</h5>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducims…</p>
-                <a href=""><img src="app/images/Button.png" alt="">READ MORE</a>
+                <p class="text-poppins-400">At vero eos et accusamus et iusto odio dignissimos ducims…</p>
+                <a href=""><img src="app/images/Button.png" alt=""><span>READ MORE</span></a>
             </li>
             <li>
-                <img src="app/images/news2-pexels-kaboompics-com-6335.jpg" alt="">
-                <h5  class="text-poppins-700">5 Amazing and Easy Tips for Sustainable Business Success</h5>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducims…</p>
-                <a href=""><img src="app/images/Button.png" alt="">READ MORE</a>
+                <img src="app/images/news1-pexels-markus-winkler.jpg" alt="">
+                <h5 class="text-poppins-700">5 Amazing and Easy Tips for Sustainable Business Success</h5>
+                <p class="text-poppins-400">At vero eos et accusamus et iusto odio dignissimos ducims…</p>
+                <a href=""><img src="app/images/Button.png" alt=""><span>READ MORE</span></a>
+            </li>
+            <li>
+                <img src="app/images/news1-pexels-markus-winkler.jpg" alt="">
+                <h5 class="text-poppins-700">5 Amazing and Easy Tips for Sustainable Business Success</h5>
+                <p class="text-poppins-400">At vero eos et accusamus et iusto odio dignissimos ducims…</p>
+                <a href=""><img src="app/images/Button.png" alt=""><span>READ MORE</span></a>
             </li>
         </ol>
         <div class="col-2">
