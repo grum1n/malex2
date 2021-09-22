@@ -119,7 +119,17 @@ section {
     font-size: 4.75rem;
     line-height: 93px;
 }
+.pages-top-section .container-big-text p{
+    margin:0;
+    padding-left: 50px;
+    max-width: 775px;
+    text-align: left;
+    font-family: var(--poppins-font);
+    font-weight: 400;
+    font-size: 1.1875rem;
+    line-height: 34px;
 
+}
 .container-big-text{
     max-width: 1200px;
     margin: 0 auto;
@@ -992,6 +1002,9 @@ footer i {padding: 0 20px;font-size: 2rem;}
     /*PAGES-top-section*/
     .pages-top-section h1{
         padding: 20px 0;
+    }
+    .pages-top-section .container-big-text p{
+        padding: 0;
     }
     /*HERO*/
     .hero .hero-text{padding-left: 20px;}
