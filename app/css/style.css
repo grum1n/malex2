@@ -500,23 +500,15 @@ nav > div > a > i {font-size: 1.5rem;}
     padding: 0;
     list-style-type: none;
 }
-.meet-our-team li h3{
-   padding-top: 20px;
-}
-.meet-our-team li h2{
-    max-width: 623px;
-}
-.meet-our-team li:last-child {
-    margin-top: 20px;
-}
+.meet-our-team li h3{padding-top: 20px;}
+.meet-our-team li h2{max-width: 623px;}
+.meet-our-team li:last-child {margin-top: 20px;}
 .meet-our-team li:last-child > div {
     margin: 15px;
     box-shadow: 0 0 10px var(--gray-1e);
     text-align: left;
 }
-.meet-our-team .portret{
-   position: relative;
-}
+.meet-our-team .portret{position: relative;}
 .meet-our-team .portret img{
     width: 100%;
     display: block;
@@ -888,7 +880,6 @@ nav > div > a > i {font-size: 1.5rem;}
     border: 1px solid var(--black);
     background-color: var(--black);
     color: var(--white);
-    cursor: pointer;
 }
 
 /*FOOTER*/
@@ -965,9 +956,7 @@ footer i {padding: 0 20px;font-size: 2rem;}
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .new-articles li div{
-        margin: 0 10px 50px;
-    }
+    .new-articles li div{margin: 0 10px 50px;}
     /*Footer*/
     footer .container{flex-direction: column;}
     footer p{padding: 20px;}
@@ -1007,12 +996,8 @@ footer i {padding: 0 20px;font-size: 2rem;}
     .hero-bottom a{margin-top: 35px;}
     .hero h1{padding: 0;}
     /*contacts*/
-    .contacts form {
-        align-items: center;
-    }
-    .contacts form p{
-        text-align: center;
-    }
+    .contacts form {align-items: center;}
+    .contacts form p{text-align: center;}
 }
 @media screen and (max-width: 350px) {
     /*HERO*/

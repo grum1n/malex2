@@ -1,4 +1,4 @@
-<section class="row meet-our-team">
+<section id="our-team" class="row meet-our-team">
     <div  class="container">
         <ul>
             <li class="container-big-text">

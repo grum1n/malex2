@@ -1,4 +1,4 @@
-<section class="row testimonials">
+<section id="testimonials" class="row testimonials">
     <div class="container">
         <ul>
             <li>

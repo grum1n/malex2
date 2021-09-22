@@ -5,11 +5,11 @@
             <ul class="flex-container">
                 <li><a href="pages.php?page=service">SERVICES</a></li>
                 <li><a href="pages.php?page=about">ABOUT US</a></li>
-                <li><a href="">TEAM</a></li>
-                <li><a href="">PRICING</a></li>
-                <li><a href="">TESTIMONIALS</a></li>
-                <li><a href="">NEWS</a></li>
-                <li><a href="">CONTACTS</a></li>
+                <li><a href="#our-team">TEAM</a></li>
+                <li><a href="#pricing">PRICING</a></li>
+                <li><a href="#testimonials">TESTIMONIALS</a></li>
+                <li><a href="pages.php?page=news">NEWS</a></li>
+                <li><a href="#contacts">CONTACTS</a></li>
             </ul>
             <div class="search-box">
                 <a href="search.php"><i class="fas fa-search"></i></a>

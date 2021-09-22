@@ -1,4 +1,4 @@
-<section class="row contacts">
+<section id="contacts" class="row contacts">
     <div class="container">
         <ul>
             <li class="container-big-text">

@@ -1,4 +1,4 @@
-<section class="row price-plans">
+<section id="pricing" class="row price-plans">
     <div  class="container">
         <ul>
             <li class="container-big-text">
