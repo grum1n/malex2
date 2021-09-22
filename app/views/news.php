@@ -57,19 +57,18 @@
             </li>
         </ol>
         <div class="col-2">
-            <div>
+            <div class="flex-container">
                 <input type="text" value="" placholder="Search">
                 <button><i class="fas fa-search"></i></button>
             </div>
-            <div>
-                <p>Categories</p>
-                <ul>
-                    <li>Business</li>
-                    <li>Marketing</li>
-                    <li>Sales</li>
-                    <li>Strategy</li>
-                </ul>
-            </div>
+            <ul>
+                <h3 class="text-poppins-700">Categories</h3>
+                <li><a href="">Business</a></li>
+                <li><a href="">Marketing</a></li>
+                <li><a href="">Sales</a></li>
+                <li><a href="">Strategy</a></li>
+            </ul>
+            
         </div>
         <div class="col-3">
             <ul>
