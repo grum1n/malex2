@@ -52,6 +52,17 @@ a {text-decoration: none;}
 .text-poppins-700 {font-family: var(--poppins-font);font-weight: 700;}
 .text-dm-700 {font-family: var(--dm-font);font-weight: 700;}
 
+
+.section-name{
+    margin:0;
+    color:var(--blue);
+    font-family: var(--poppins-font);
+    font-weight: 700;
+    font-size: 1.1875rem;
+    line-height: 28px; 
+    text-transform: uppercase;
+    text-align: left;
+}
 .section-name{
     margin:0;
     color:var(--blue);
@@ -94,6 +105,21 @@ section {
   margin: 0 auto; 
   padding:0 20px;
 }
+/*PAGES-top-section*/
+.pages-top-section .container-big-text{
+    top:200px;
+    padding-bottom: 270px;
+}
+.pages-top-section h1{
+    margin:0;
+    padding: 20px 0 20px 50px ;
+    text-align: left;
+    font-family: var(--poppins-font);
+    font-weight: 700;
+    font-size: 4.75rem;
+    line-height: 93px;
+}
+
 .container-big-text{
     max-width: 1200px;
     margin: 0 auto;
@@ -369,10 +395,7 @@ nav > div > a > i {font-size: 1.5rem;}
 .hero img{display: block;}
 
 /*About section*/
-.about{
-    
-    background-color: var(--white-f8);
-}
+.about{background-color: var(--white-f8);}
 .about ul{
     margin: 0;
     padding: 62px 0 ;
@@ -389,9 +412,7 @@ nav > div > a > i {font-size: 1.5rem;}
 .about ul li:last-child{
     padding-top: 33px;
 }
-.about h2{
-    margin: 9px 0 44px;
-}
+.about h2{margin: 9px 0 44px;}
 .about-autor img{
     display: block;
     max-width: 128px;
@@ -421,6 +442,7 @@ nav > div > a > i {font-size: 1.5rem;}
     display: block;
     width: 100%;
 }
+
 /*how-it-works*/
 .how-it-works ul{
     margin: 0;
@@ -917,6 +939,11 @@ footer i {padding: 0 20px;font-size: 2rem;}
     .sidenav, .menu-button{display: none;}
 }
 @media screen and (max-width: 1000px){
+    /*PAGES-top-section*/
+    .pages-top-section .container-big-text{
+        top:150px;
+        padding-bottom: 220px;
+    }
     /*header*/
     header {padding: 20px 0;}
     nav > ul > li{display: none;}
@@ -962,7 +989,11 @@ footer i {padding: 0 20px;font-size: 2rem;}
     footer p{padding: 20px;}
 }
 @media screen and (max-width: 650px) {
-     /*HERO*/
+    /*PAGES-top-section*/
+    .pages-top-section h1{
+        padding: 20px 0;
+    }
+    /*HERO*/
     .hero .hero-text{padding-left: 20px;}
      /*How it works section */
      .how-it-works ul{
@@ -976,6 +1007,11 @@ footer i {padding: 0 20px;font-size: 2rem;}
     }
 } 
 @media screen and (max-width: 470px) {
+    /*PAGES-top-section*/
+    .pages-top-section h1{
+        font-size: 3.5rem;
+        line-height: 83px;
+    }
     /*HERO*/
     .hero h1{font-size: 3.4rem;line-height: 68px;}
     .hero .hero-text a{
@@ -1000,6 +1036,11 @@ footer i {padding: 0 20px;font-size: 2rem;}
     .contacts form p{text-align: center;}
 }
 @media screen and (max-width: 350px) {
+    /*PAGES-top-section*/
+    .pages-top-section h1{
+        font-size: 3rem;
+        line-height: 73px;
+    }
     /*HERO*/
     .hero .hero-text{padding-left: 10px;}
     /*meet-our-team*/

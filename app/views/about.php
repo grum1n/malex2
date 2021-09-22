@@ -1,4 +1,10 @@
-<section class="row about">
+<section class="row about pages-top-section">
+    <div class="container">
+        <div class="container-big-text">
+            <h1>About Us</h1>
+            <span>About</span>
+        </div> 
+    </div>
     <div class="container">
         <img src="app/images/pexels-tiger-lily-7108129.jpg" alt="Pexels image">
     </div>
