@@ -1,4 +1,4 @@
-<section class="row pages-top-section">
+<section class="row pages-top-section bg--gray-f8">
     <div class="container">
         <div class="container-big-text">
             <h1>Our News</h1>
@@ -7,6 +7,30 @@
     </div>
     <div class="container all-news-grid">
         <ol class="col-1 flex-container">
+            <li>
+                <img src="app/images/news1-pexels-markus-winkler.jpg" alt="">
+                <h5 class="text-poppins-700">5 Amazing and Easy Tips for Sustainable Business Success</h5>
+                <p class="text-poppins-400">At vero eos et accusamus et iusto odio dignissimos ducims…</p>
+                <a href=""><img src="app/images/Button.png" alt=""><span>READ MORE</span></a>
+            </li>
+            <li>
+                <img src="app/images/news1-pexels-markus-winkler.jpg" alt="">
+                <h5 class="text-poppins-700">5 Amazing and Easy Tips for Sustainable Business Success</h5>
+                <p class="text-poppins-400">At vero eos et accusamus et iusto odio dignissimos ducims…</p>
+                <a href=""><img src="app/images/Button.png" alt=""><span>READ MORE</span></a>
+            </li>
+            <li>
+                <img src="app/images/news1-pexels-markus-winkler.jpg" alt="">
+                <h5 class="text-poppins-700">5 Amazing and Easy Tips for Sustainable Business Success</h5>
+                <p class="text-poppins-400">At vero eos et accusamus et iusto odio dignissimos ducims…</p>
+                <a href=""><img src="app/images/Button.png" alt=""><span>READ MORE</span></a>
+            </li>
+            <li>
+                <img src="app/images/news1-pexels-markus-winkler.jpg" alt="">
+                <h5 class="text-poppins-700">5 Amazing and Easy Tips for Sustainable Business Success</h5>
+                <p class="text-poppins-400">At vero eos et accusamus et iusto odio dignissimos ducims…</p>
+                <a href=""><img src="app/images/Button.png" alt=""><span>READ MORE</span></a>
+            </li>
             <li>
                 <img src="app/images/news1-pexels-markus-winkler.jpg" alt="">
                 <h5 class="text-poppins-700">5 Amazing and Easy Tips for Sustainable Business Success</h5>
@@ -70,15 +94,14 @@
                     <h4 class="text-poppins-400">Assessing the Maturity of Your Data Management in Industry</h4>
                 </li>
             </ol>
-            <div>
+            <div class="news-tags text-poppins-700">
                 <h3>Tags</h3>
-                <ul>
-                    <li>Business</li>
-                    <li>Marketing</li>
-                    <li>Sales</li>
-                    <li>Strategy</li>
-                </ul>
-
+                <div class="flex-container">
+                    <a href="">Business</a>
+                    <a href="">Marketing</a>
+                    <a href="">Sales</a>
+                    <a href="">Strategy</a>
+                </div>
             </div>
         </div>
     </div>
