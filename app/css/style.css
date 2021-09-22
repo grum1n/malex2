@@ -987,6 +987,77 @@ footer i {padding: 0 20px;font-size: 2rem;}
 .all-news-grid li span {
     padding-left: 30px;
 }
+.all-news-grid .col-2 div{
+    background-color: red;
+
+}
+.all-news-grid .col-2 ul {
+    margin: 0;
+    padding:0;
+}
+.all-news-grid .col-3 {
+    background-color: green;
+}
+.all-news-grid .col-3 ul {
+    margin: 25px 0;
+    padding: 30px 40px;
+    list-style-type: none;
+    background-color: yellow;
+}
+.all-news-grid .col-3 > ul > li {
+    display: flex;
+    margin: 15px 0;
+    padding: 0;
+    text-align: left;
+}
+.all-news-grid .col-3 ul li:first-child {
+    font-size: 1.375rem;
+    line-height: 39px;
+    color: var(--black);
+}
+.all-news-grid .col-3 ul li img{
+    display: block;
+    max-width: 91px;
+    max-height: 91px;
+}
+.all-news-grid .col-3 ul li span{
+    display: flex;
+    align-items: center;
+    font-family: var(--poppins-font);
+    font-weight: 400;
+    font-size: 1.0625rem;
+    line-height: 18px;
+}
+
+.all-news-grid .col-3 ol {
+    margin: 25px 0;
+    padding: 30px 40px;
+    list-style-type: none;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.all-news-grid .col-3 > ol > li {
+    margin: 15px 0;
+    padding: 0;
+    text-align: left;
+    color:var(--black);
+}
+.all-news-grid .col-3 > ol > li:first-child{
+    font-size: 1.375rem;
+    line-height: 39px;
+}
+.all-news-grid .col-3 > ol h3 {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 24px;
+}
+.all-news-grid .col-3 > ol h4 {
+    margin: 0;
+    font-size: 1.0625rem;
+    line-height: 28px;
+    color: var(--gray-6c);
+}
 /*MEDIA MEDIA MEDIA*/
 @media screen and (max-width: 1200px) {
     /*Price plans*/
